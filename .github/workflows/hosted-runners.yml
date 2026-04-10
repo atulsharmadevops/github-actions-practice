@@ -12,6 +12,13 @@ jobs:
           hostname
           whoami
 
+      - name: Print Versions
+        run: |
+          docker --version
+          python3 --version
+          node --version
+          git --version
+
   windows:
     runs-on: windows-latest
     steps:
