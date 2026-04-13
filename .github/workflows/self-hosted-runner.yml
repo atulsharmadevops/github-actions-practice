@@ -13,7 +13,7 @@ jobs:
         run: pwd
 
       - name: Create a File
-        run: echo "Hello from my self-hosted runner with label!" >> runner-test.txt
+        run: echo "Hello from my labeled runner!" > runner-labeled.txt
 
       - name: Verify File Exists
-        run: ls -l runner-test.txt
+        run: ls -l runner-labeled.txt
