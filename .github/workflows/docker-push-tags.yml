@@ -1,9 +1,7 @@
 name: Docker Push with Tags
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   docker:
