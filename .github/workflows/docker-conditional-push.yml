@@ -1,9 +1,7 @@
 name: Docker Conditional Push
 
 on:
-  push:
-    branches:
-      - '**'
+  workflow_dispatch:
 
 jobs:
   docker:
