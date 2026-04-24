@@ -13,10 +13,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run setup-and-greet action
+        id: greet
         uses: ./.github/actions/setup-and-greet
         with:
           name: "Atul"
           language: "en"
 
       - name: Verify output
-        run: 'echo "Greeting Completed: ${{ steps.greet-job.outputs.greeted }}"'
+        run: 'echo "Greeting Completed: ${{ steps.greet.outputs.greeted }}"'
