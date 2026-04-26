@@ -43,4 +43,5 @@ jobs:
             echo "Warning: PR description is empty"
           else
             echo "PR description present"
+          fi
 
