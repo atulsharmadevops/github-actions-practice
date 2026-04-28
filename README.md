@@ -9,3 +9,4 @@
 A practice repository to learn GitHub Actions, Docker builds, and CI/CD pipelines.
 Testing PR lifecycle workflow
 Second test line
+Testing if docs-ignore.yml/smart-triggers.yml triggers or not
